@@ -61,7 +61,7 @@ body {
   .mobile-nav {
     width: 70px;
     height: 70px;
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,14 +83,14 @@ body {
     z-index: 5;
     padding: 20px;
     transform: translateY(-200%);
-    transition: transform 0.5s ease-in-out;
+    transition: transform 1s ease-in-out;
   }
   .hidden.nav-content {
     transform: translateY(0%);
     position: fixed;
   }
   .hidden > img {
-    width: 80px;
+    width: 60px;
   }
   .hidden button {
     width: 60px;
@@ -176,7 +176,7 @@ body {
     border-radius: 10px;
     background-color: rgba(27, 27, 27, 0.562);
     border: 2px solid rgb(227, 224, 224);
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 50px;
     text-decoration: none;
     color: rgb(227, 224, 224);
@@ -217,14 +217,14 @@ body {
     justify-content: center;
   }
   .text-wrapper {
-    font-size: 20px;
+    font-size: 16px;
     color: rgb(30, 28, 28);
   }
   .storage {
     margin-top: 20px;
   }
   .box > img {
-    width: 100px;
+    width: 80px;
   }
   .box > h3 {
     margin-top: 30px;
@@ -245,13 +245,13 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
   }
   /*RASPBERRY SECTION*/
   #raspberries-section {
     margin-top: 30px;
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -304,7 +304,7 @@ body {
     border-radius: 10px;
     background-color: #e30b5aaa;
     border: 2px solid rgb(227, 224, 224);
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 15px;
     text-decoration: none;
     color: rgb(227, 224, 224);
@@ -321,7 +321,7 @@ body {
   /*BLACKBERRY SECTION*/
   #blackberries-section {
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -356,7 +356,7 @@ body {
     border-radius: 10px;
     background-color: #2e2848d7;
     border: 1px solid #2e2848d7;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 15px;
     margin-bottom: 15px;
     text-decoration: none;
@@ -368,7 +368,7 @@ body {
   /*PHARMACY SECTIOn*/
   #pharmacy-section {
     width: 100%;
-    font-size: 20px;
+    font-size: 16px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -404,7 +404,7 @@ body {
     border-radius: 10px;
     background-color: rgba(23, 128, 23, 0.826);
     border: 1px solid rgba(23, 128, 23, 0.826);
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 30px;
     margin-bottom: 15px;
     text-decoration: none;
@@ -437,7 +437,7 @@ body {
     padding: 20px;
     background-color: rgb(34, 34, 34);
     color: rgb(190, 189, 189);
-    font-size: 20px;
+    font-size: 16px;
   }
   #contact-info > h2 {
     margin-bottom: 0;
@@ -455,7 +455,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
   }
   #insta-icon {
     font-size: 40px;
@@ -479,7 +479,7 @@ body {
     border-radius: 10px;
     background-color: rgba(27, 27, 27, 0.562);
     border: 2px solid rgb(227, 224, 224);
-    font-size: 20px;
+    font-size: 16px;
     margin: 30px 0 30px 0;
     text-decoration: none;
     color: rgb(227, 224, 224);
@@ -493,7 +493,7 @@ body {
   .mobile-nav {
     width: 90px;
     height: 90px;
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -612,7 +612,7 @@ body {
     border-radius: 10px;
     background-color: rgba(27, 27, 27, 0.562);
     border: 2px solid rgb(227, 224, 224);
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 20px;
     text-decoration: none;
     color: rgb(227, 224, 224);
@@ -653,7 +653,7 @@ body {
     justify-content: center;
   }
   .text-wrapper {
-    font-size: 18px;
+    font-size: 16px;
     color: rgb(30, 28, 28);
   }
   .storage {
@@ -681,13 +681,13 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
   }
   /*RASPBERRY SECTION*/
   #raspberries-section {
     margin-top: 30px;
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
     padding-top: 20px;
     display: flex;
     flex-direction: row;
@@ -735,7 +735,7 @@ body {
     border-radius: 10px;
     background-color: #e30b5aaa;
     border: 2px solid rgb(227, 224, 224);
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     color: rgb(227, 224, 224);
   }
@@ -751,7 +751,7 @@ body {
   /*BLACKBERRY SECTION*/
   #blackberries-section {
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -803,7 +803,7 @@ body {
     border-radius: 10px;
     background-color: #2e2848d7;
     border: 1px solid rgb(227, 224, 224);
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 15px;
     margin-bottom: 15px;
     text-decoration: none;
@@ -815,7 +815,7 @@ body {
   /*PHARMACY SECTIOn*/
   #pharmacy-section {
     width: 100%;
-    font-size: 18px;
+    font-size: 16px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -854,7 +854,7 @@ body {
     border-radius: 10px;
     background-color: rgba(23, 128, 23, 0.826);
     border: 1px solid rgba(23, 128, 23, 0.826);
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 30px;
     margin-bottom: 15px;
     text-decoration: none;
@@ -887,7 +887,7 @@ body {
     padding: 20px;
     background-color: rgb(34, 34, 34);
     color: rgb(190, 189, 189);
-    font-size: 20px;
+    font-size: 16px;
   }
   #contact-info > h2 {
     margin-bottom: 0;
@@ -905,7 +905,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
   }
   #insta-icon {
     font-size: 40px;
@@ -929,7 +929,7 @@ body {
     border-radius: 10px;
     background-color: rgba(27, 27, 27, 0.562);
     border: 2px solid rgb(227, 224, 224);
-    font-size: 20px;
+    font-size: 16px;
     margin: 30px 0 30px 0;
     text-decoration: none;
     color: rgb(227, 224, 224);
