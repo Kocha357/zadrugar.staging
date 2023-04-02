@@ -64,3 +64,7 @@ navLinks.forEach((link) => {
     mobilNavigation.classList.remove("nav-content");
   });
 });
+window.onload = function () {
+  const loader = document.querySelector("#loader");
+  loader.style.display = "none";
+};
