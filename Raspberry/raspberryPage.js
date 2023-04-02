@@ -26,3 +26,7 @@ function showSlides(n) {
 
   slides[slideIndex - 1].style.display = "flex";
 }
+window.onload = function () {
+  const loader = document.querySelector("#loader");
+  loader.style.display = "none";
+};
