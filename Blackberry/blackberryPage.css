@@ -208,7 +208,7 @@ body {
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 540px) {
-  #about-raspberries {
+  #about-blackberries {
     width: 100%;
   }
   .blackberry-nav {
@@ -383,7 +383,7 @@ body {
   }
 }
 @media only screen and (min-width: 540px) and (max-width: 820px) {
-  #about-raspberries {
+  #about-blackberries {
     width: 100%;
   }
   .blackberry-nav {
@@ -558,7 +558,7 @@ body {
   }
 }
 @media only screen and (min-width: 820px) and (max-width: 1024px) {
-  #about-raspberries {
+  #about-blackberries {
     width: 100%;
   }
   .blackberry-nav {
@@ -733,7 +733,7 @@ body {
   }
 }
 @media only screen and (min-width: 1024px) {
-  #about-raspberries {
+  #about-blackberries {
     width: 100%;
   }
   .blackberry-nav {
