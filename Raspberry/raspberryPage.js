@@ -30,3 +30,12 @@ window.onload = function () {
   const loader = document.querySelector("#loader");
   loader.style.display = "none";
 };
+const videos = document.querySelectorAll("video");
+videos.forEach((video) => {
+  video.addEventListener("volumechange", () => {
+    if (!video.muted && video.volume > 0) {
+      video.muted = true;
+      video.volume = 0;
+    }
+  });
+});
