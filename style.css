@@ -1441,3 +1441,7 @@ h1 {
     transform: scale(0.97);
   }
 }
+@median only screen and(min-width: 1280px){
+body{
+  width:70%;
+  margin:0 auto;}}
