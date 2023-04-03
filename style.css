@@ -73,7 +73,7 @@ h1 {
   align-items: center;
   justify-content: flex-end;
   z-index: 2;
-  transition: height 0.2s ease-in-out;
+  transition: height 0.2s linear;
 }
 #navigation.navigation-on-scroll {
   background-color: rgb(34, 34, 34);
