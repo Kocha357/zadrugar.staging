@@ -1,7 +1,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+h1 {
+  font-family: "Arvo", serif;
+}
 body {
   padding: 0;
   margin: 0;
@@ -10,9 +12,6 @@ body {
 }
 * {
   box-sizing: border-box;
-}
-h1 {
-  font-family: "Arvo", serif;
 }
 ::-webkit-scrollbar {
   width: 5px;
@@ -73,7 +72,7 @@ h1 {
   align-items: center;
   justify-content: flex-end;
   z-index: 2;
-  transition: height 0.2s linear;
+  transition: height 0.3s ease-in-out;
 }
 #navigation.navigation-on-scroll {
   background-color: rgb(34, 34, 34);
@@ -1243,6 +1242,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     width: 50%;
     height: 50px;
     border-radius: 10px;
@@ -1303,12 +1303,13 @@ h1 {
   }
   .blackberry-photo-wrapper > p {
     padding: 20px;
-    width: 100%;
+    width: 50%;
   }
   .blackberry-btn {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     width: 40%;
     height: 50px;
     border-radius: 10px;
@@ -1346,7 +1347,7 @@ h1 {
   }
   .pharmacy-photo-wrapper > img {
     padding: 20px;
-    width: 30%;
+    width: 20%;
     filter: drop-shadow(12px 25px 28px #7f7e7e);
   }
   #pharmacy-section > h2 {
@@ -1365,6 +1366,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
     width: 40%;
     height: 50px;
     border-radius: 10px;
