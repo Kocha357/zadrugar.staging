@@ -16,6 +16,15 @@ h1 {
 ::-webkit-scrollbar {
   width: 5px;
 }
+.thanks-again {
+  margin: 0;
+  padding-top: 0;
+}
+.thanks-p {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
 
 /* Change the background color of the scrollbar track */
 ::-webkit-scrollbar-track {
@@ -102,9 +111,19 @@ details:focus {
   width: 200px;
 }
 #about-pharmacy > p {
-  padding: 20px;
+  padding: 0 20px 0 20px;
 }
 #about-pharmacy > p a {
+  color: purple;
+}
+.w-ph {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 20px 20px 20px;
+}
+.w-ph > a {
+  padding: 0 0 0 10px;
   color: purple;
 }
 @media only screen and (max-width: 540px) {
